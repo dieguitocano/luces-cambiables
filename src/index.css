@@ -1,0 +1,58 @@
+:root{
+  background-color: cornflowerblue;
+}
+
+body {
+  margin: 0;
+}
+
+.individual-lamp{
+  /*display: none;*/
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1% 10%;
+  justify-content: center;
+}
+
+.global-lamp {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1% 10%;
+  justify-content: center;
+}
+
+.lamp-and-btn{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 30px;
+  align-items: center;
+ 
+}
+
+.lamp {
+  width: 200px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  
+}
+
+.on {
+  background-color: gray;
+}
+
+.off {
+  background-color: yellow;
+}
+
+.lamp-btn{
+  font-size: large;
+  width: 60px;
+  height: 20%;
+  
+}
+
